@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <stddef.h>
 #include <stdio.h>
 #include <string.h>
@@ -33,3 +34,6 @@ int main() {
 	return 0;
 }
 
+=======
+#include <stdio.h>
+>>>>>>> 9a4729ca2436b267becae0c3c0264ffd8f97ab4b
