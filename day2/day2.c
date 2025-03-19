@@ -26,7 +26,7 @@ void trim_whitespace(char *str) {
 }
 
 // Reads the file into an array of strings.
-int ReadFile(const char *file_name, char lines[MAX_LINES][MAX_LINES_LEN], int *line_count) {
+int read_file(const char *file_name, char lines[MAX_LINES][MAX_LINES_LEN], int *line_count) {
     FILE *file = fopen(file_name, "r");
     if (!file) {
         perror("error opening .txt");
@@ -47,7 +47,7 @@ int PartOne(char *file_name) {
     char lines[MAX_LINES][MAX_LINES_LEN];
     int line_count = 0;
 
-    if (ReadFile(file_name, lines, &line_count)) {
+    if (read_file(file_name, lines, &line_count)) {
         return 1;
     }
 
