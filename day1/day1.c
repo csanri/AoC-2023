@@ -1,10 +1,8 @@
-#include <stddef.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
 #include <time.h>
-#include <wchar.h>
 
 #define MAX_LINES 1000
 #define MAX_LINE_LEN 256
